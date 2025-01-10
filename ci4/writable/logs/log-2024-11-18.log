@@ -1,0 +1,118 @@
+CRITICAL - 2024-11-18 01:17:27 --> ErrorException: Undefined variable $model
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Models\Foodmart.php on line 13.
+ 1 APPPATH\Models\Foodmart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\app\\Models\\Foodmart.php', 13)
+ 2 APPPATH\Controllers\FoodmartAPI.php(9): App\Models\Foodmart->getDataFoodmart()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:17:30 --> ErrorException: Undefined variable $model
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Models\Foodmart.php on line 13.
+ 1 APPPATH\Models\Foodmart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\app\\Models\\Foodmart.php', 13)
+ 2 APPPATH\Controllers\FoodmartAPI.php(9): App\Models\Foodmart->getDataFoodmart()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:17:33 --> ErrorException: Undefined variable $model
+[Method: GET, Route: foodmart]
+in APPPATH\Models\Foodmart.php on line 13.
+ 1 APPPATH\Models\Foodmart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\app\\Models\\Foodmart.php', 13)
+ 2 APPPATH\Controllers\FoodmartController.php(7): App\Models\Foodmart->getDataFoodmart()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:17:40 --> ErrorException: Undefined variable $model
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Models\Foodmart.php on line 13.
+ 1 APPPATH\Models\Foodmart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\app\\Models\\Foodmart.php', 13)
+ 2 APPPATH\Controllers\FoodmartAPI.php(9): App\Models\Foodmart->getDataFoodmart()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:56:29 --> Error: Class "App\Controllers\CustomerQuery" not found
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Controllers\FoodmartAPI.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:56:30 --> Error: Class "App\Controllers\CustomerQuery" not found
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Controllers\FoodmartAPI.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:56:31 --> Error: Class "App\Controllers\CustomerQuery" not found
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Controllers\FoodmartAPI.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:56:31 --> Error: Class "App\Controllers\CustomerQuery" not found
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Controllers\FoodmartAPI.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:56:32 --> Error: Class "App\Controllers\CustomerQuery" not found
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Controllers\FoodmartAPI.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:56:32 --> Error: Class "App\Controllers\CustomerQuery" not found
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Controllers\FoodmartAPI.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-18 01:56:33 --> Error: Class "App\Controllers\CustomerQuery" not found
+[Method: GET, Route: foodmartAPI]
+in APPPATH\Controllers\FoodmartAPI.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')

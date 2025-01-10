@@ -1,0 +1,38 @@
+CREATE TABLE schedules (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    psychologist_id INT NOT NULL,
+    schedule_date DATETIME NOT NULL,
+    status ENUM('pending', 'confirmed', 'cancelled') DEFAULT 'pending',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+"src="<?= base_url('uploads/' . $article['image'])"
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+</head>
+<body>
+    <b>Welcome to the Online Consultation Booking System</b><br>
+    <p>Here you can book a consultation with a psychologist.</p>
+    <?php if (session()->get('user_id')): ?> 
+        <h1>Welcome, <?= esc(session()->get('name')) ?></h1>
+        <p>Username: <?= esc(session()->get('username')) ?></p>
+        <p>Name: <?= esc(session()->get('name')) ?></p>
+        <a href="<?= site_url('auth/logout') ?>">Logout</a>
+        <ul>
+            <li><a href="<?= base_url('/available-schedules') ?>">View Available Consultation Schedules and Book a Consultation</a></li>
+            <li><a href="<?= base_url('/bookings') ?>">Booked Consultations</a></li>
+            <li><a href="<?= base_url('/articles') ?>">Articles</a></li>
+        </ul>
+    <?php else: ?>  
+        <p>You are not logged in.</p>
+        <a href="<?= site_url('auth/login') ?>">Login</a>
+    <?php endif; ?> 
+
+

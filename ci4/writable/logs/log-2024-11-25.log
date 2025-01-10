@@ -1,0 +1,41 @@
+CRITICAL - 2024-11-25 01:03:25 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: username/password/d5]
+in APPPATH\Controllers\UserController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->getUser('username', 'password', 'd5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-25 03:47:09 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$4"
+[Method: GET, Route: coba/$4]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('coba/$4')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('coba/$4')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-25 06:42:05 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: username/password/d5]
+in APPPATH\Controllers\UserController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->getUser('username', 'password', 'd5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
+CRITICAL - 2024-11-25 07:35:36 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: coba/delete/4]
+in APPPATH\Controllers\UserController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->getUser('coba', 'delete', '4')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Downloads\\codeigniter4-framework-v4.5.5-0-g2849e7f\\ci4\\public\\index.php')
